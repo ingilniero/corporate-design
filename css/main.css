@@ -20,6 +20,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*************************** LOGO *****************************/
+
+.logo {
+  float: left;
+  max-width: 50%;
+}
+
 .logo h2 {
   display: inline-block;
   font-size: 3em;
@@ -39,6 +45,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /*************************** SOCIAL MEDIA *****************************/
 
+.social {
+  float: right;
+  text-align: right;
+}
+
 .social a i {
   color: #a1a1a1;
   font-size: 2.5em;
@@ -50,11 +61,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .social p {
-  margin-bottom: 2px;
+  font-size: 0.85em;
+  margin: 10px 0 2px 0;
 }
 
 .social ul {
   list-style-type: none;
   margin-top: 0;
   padding-left: 0;
+}
+
+/************************** NAVIGATION *******************************/
+
+nav {
+  clear: both;
 }
