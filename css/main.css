@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
   font: 1.75em 'Trebuchet MS', Tahoma, Arial, sans-serif;
   padding-left: 10px;
   position: relative;
-  top: -.2em;
+  top: -0.2em;
 }
 
 /*************************** SOCIAL MEDIA *****************************/
@@ -54,6 +54,25 @@ h1, h2, h3, h4, h5, h6 {
   color: #a1a1a1;
   font-size: 2.5em;
   text-decoration: none;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.social a:hover i.fa-facebook-square {
+  color: #3b5998;
+}
+
+.social a:hover i.fa-twitter-square {
+  color: #4099ff;
+}
+
+.social a:hover i.fa-google-plus-square {
+  color: #d34836;
+}
+
+.social a:hover i.fa-youtube-square {
+  color: #ff3333;
 }
 
 .social li {
