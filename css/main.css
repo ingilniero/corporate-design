@@ -149,3 +149,30 @@ nav {
   color: #a1a1a1;
   text-decoration: none;
 }
+
+/***************************** CONTENT SLIDER **************************/
+
+.slider {
+  background: #eee url('../img/slider-bg.jpg') no-repeat;
+  height: 260px;
+  margin-top: 20px;
+  position: relative;
+  width: 960px;
+}
+
+.slider-prev, .slider-next {
+  color: #444;
+  font-size: 30px;
+  opacity: 0.5;
+  position: absolute;
+  text-decoration: none;
+  top: 115px;
+}
+
+.slider-prev {
+  left: 10px;
+}
+
+.slider-next {
+  right: 10px;
+}
