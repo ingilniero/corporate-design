@@ -206,3 +206,24 @@ nav {
   font-size: 30px;
   font-weight: regular;
 }
+
+.slider-button {
+  background-color: #8bcf48;
+  border-radius: 4px;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  height: 40px;
+  padding: 10px;
+  text-decoration: none;
+  width: 280px;
+  transition: background-color 0.5s;
+}
+
+.slider-button:hover {
+  background-color: #9cdf59;
+}
+
+.slider-button span {
+  font-size: 14px;
+}
