@@ -181,3 +181,28 @@ nav {
 .slider-next {
   right: 10px;
 }
+
+.slide-image {
+  position: absolute;
+  top: 15px;
+  left: 80px;
+}
+
+.slide-content {
+  position: absolute;
+  right: 80px;
+  width: 50%;
+}
+
+.slider-title {
+  font: 55px 'Trebuchet MS', Tahoma, Arial, sans-serif;
+  font-weight: bold;
+  line-height: 35px;
+  margin-bottom: 5px;
+}
+
+.slider-title span {
+  color: #a1a1a1;
+  font-size: 30px;
+  font-weight: regular;
+}
