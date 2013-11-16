@@ -306,6 +306,11 @@ footer {
   width: 960px;
 }
 
+footer h3 {
+  color: #eee;
+  font: 1.4em 'Trebuchet MS', Tahoma, Arial, sans-serif;
+}
+
 .copyright {
   border-top: 1px solid #888;
   font-size: 12px;
@@ -313,6 +318,17 @@ footer {
   padding: 10px;
   text-align: center;
   width: 960px;
+}
+
+.thumbnails {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.thumbnails li {
+  margin-right: 8px;
+  float: left;
 }
 
 /**************************** CLEARFIX *****************************/
