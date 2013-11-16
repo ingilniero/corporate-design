@@ -23,6 +23,10 @@ h1, h2, h3, h4, h5, h6 {
   clear: both;
 }
 
+.fa-ul {
+  margin-left: 1.5em;
+}
+
 /*************************** LOGO *****************************/
 
 .logo {
@@ -252,6 +256,20 @@ nav {
   width: 632px;
 }
 
-.fa-ul {
-  margin-left: 1.5em;
+/***************************** 4-COLUMN SETUP *******************/
+
+.meet-the-team {
+  padding-top: 20px;
+  margin-bottom: 2px;
+}
+.column-one-fourth {
+  border: 1px solid #ddd;
+  border-left: none;
+  float: left;
+  padding: 10px;
+  width: 218.75px;
+}
+
+.column-one-fourth:first-child {
+  border-left: 1px solid #ddd;
 }
