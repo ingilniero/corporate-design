@@ -19,6 +19,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 960px;
 }
 
+.clear {
+  clear: both;
+}
+
 /*************************** LOGO *****************************/
 
 .logo {
@@ -226,4 +230,28 @@ nav {
 
 .slider-button span {
   font-size: 14px;
+}
+
+/***************************** 3-COLUMN SETUP *******************/
+
+.column-one-third, .column-two-thirds {
+  float: left;
+  margin-right: 24px;
+  padding: 0;
+}
+
+.column-one-third:last-child, .column-two-thirds:last-child {
+  margin-right: 0;
+}
+
+.column-one-third {
+  width: 304px;
+}
+
+.column-two-thirds {
+  width: 632px;
+}
+
+.fa-ul {
+  margin-left: 1.5em;
 }
