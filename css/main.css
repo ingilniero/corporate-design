@@ -291,3 +291,35 @@ nav {
   position: absolute;
   width: 200px;
 }
+
+/***************************** FOOTER *******************************/
+
+footer {
+  background-color: #555;
+  border-top: 8px solid #ec8e08;
+  margin-top: 20px;
+  width: 100%;
+}
+
+/**************************** CLEARFIX *****************************/
+
+.clearfix:after {
+  clear: both;
+  content: '.';
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+html[xmls] .clearfix {
+  display: block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
