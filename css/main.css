@@ -301,6 +301,20 @@ footer {
   width: 100%;
 }
 
+.footer-row {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.copyright {
+  border-top: 1px solid #888;
+  font-size: 12px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  width: 960px;
+}
+
 /**************************** CLEARFIX *****************************/
 
 .clearfix:after {
